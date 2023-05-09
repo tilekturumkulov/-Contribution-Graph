@@ -1,0 +1,78 @@
+.comfort{
+    margin: 128px;
+    &__content{
+        // width: 100%;
+        display: flex;
+        justify-content: space-between;
+        &-left{
+            width: 47%;
+            padding: 80px 0;
+        }
+        &-subtitle{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #2A2C1F;
+            background: #E7E8E3;
+            border-radius: 32px;
+            padding: 4px 12px;
+        }
+        &-title{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            color: #2A2C1F;
+            margin: 24px 0 28px;
+        }
+        &-text{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #65665C;
+        }
+        &-btns{
+            margin-top: 34px;
+            display: flex;
+            column-gap: 24px;
+        }
+        &-properties{
+            background: #FFFFFF;
+            border: 1px solid #E7E8E3;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+            border-radius: 6px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #2A2C1F;
+            padding: 13px 25px;
+        }
+        &-contact{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #2A2C1F;
+            display: flex;
+            column-gap: 10px;
+            align-items: center;
+            border: none;
+            background: #fff;
+        }
+        &-right{
+            background: url(../commponents/Comfort/images/bg.png) center/cover no-repeat;
+            width: 47%;
+            border-radius: 16px;
+        }
+    }
+}

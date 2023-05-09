@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/style.scss'
+import Header from './commponents/Header/Header'
+import Inform from './commponents/Inform/Inform'
+import Magazines from './commponents/Magazines/Magazines'
+import Process from './commponents/Process/Process'
+import Comfort from './commponents/Comfort/Comfort'
+import Fast from './commponents/Fast/Fast'
+import Properties from './commponents/Properties/Properties'
+import Locations from './commponents/Locations/Locations'
+import Priority from './commponents/Priority/Priority'
+import Customers from './commponents/Customers/Customers'
+import Latest from './commponents/Latest/Latest'
+import Footer from './commponents/Footer/Footer'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    return ( 
+    <div className = 'App' >
+        <Header/>
+        <section className="main">
+            <Inform/>
+            <Magazines/>
+            <Process/>
+            <Comfort/>
+            <Fast/>
+            <Properties/>
+            <Locations/>
+            <Priority/>
+            <Customers/>
+            <Latest/>
+            <Footer/>
+        </section>
     </div>
-  );
+    );
 }
 
 export default App;

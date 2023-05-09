@@ -1,0 +1,74 @@
+.customers{
+    padding-bottom: 160px;
+    &__content{
+        text-align: center;
+        &-title{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            text-align: center;
+            color: #2A2C1F;
+        }
+        &-text{
+            margin: 26px 0 80px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            color: #65665C;
+        }
+        &-row{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 32px;
+            &_item{
+                background: #FFFFFF;
+                border: 1px solid #E7E8E3;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+                border-radius: 16px;
+                padding: 33px;
+                text-align: start;
+                display: flex;
+                flex-direction: column;
+                row-gap: 28px;
+            }
+            &_stars{
+                display: flex;
+                column-gap: 4px;
+            }
+            &_text{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                color: #2A2C1F;
+            }
+            &_customer{
+                display: flex;
+                column-gap: 16px;
+                align-items: center;
+            }
+            &_name{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #2A2C1F;
+            }
+            &_post{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #65665C;
+            }
+        }
+    }
+}
